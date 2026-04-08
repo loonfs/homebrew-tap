@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  brew:
+    name: brew
+    runs-on: ${{ matrix.runner }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - runner: macos-14
+          - runner: macos-15-intel
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Audit formula
+        run: brew audit --strict Formula/loon.rb
+
+      - name: Install formula
+        run: brew install --formula ./Formula/loon.rb
+
+      - name: Test formula
+        run: brew test loon
