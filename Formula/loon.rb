@@ -2,6 +2,7 @@ class Loon < Formula
   desc "CLI for the Loon object-store-backed file service"
   homepage "https://github.com/loonfs/loonfs"
   license "Apache-2.0"
+  version "0.1.1"
 
   on_macos do
     on_arm do
