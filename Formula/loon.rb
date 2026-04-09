@@ -5,13 +5,13 @@ class Loon < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/loonfs/loonfs/releases/download/v0.1.0/loon-aarch64-apple-darwin.tar.gz"
-      sha256 "7d254f3f87e465d171311507d32650e9b15c00cc4720bec9799afe8fe51e9e9b"
+      url "https://github.com/loonfs/loonfs/releases/download/v0.1.1/loon-aarch64-apple-darwin.tar.gz"
+      sha256 "6a5ec9a63488e22edc5cb573d61ca438f2b9a691fb21a1fe357d6dbfd935093e"
     end
 
     on_intel do
-      url "https://github.com/loonfs/loonfs/releases/download/v0.1.0/loon-x86_64-apple-darwin.tar.gz"
-      sha256 "c9513d9d7f93be0cf0e06cf5e1f42c7b2e2d2f3713bfc4526c4fb09250f2721e"
+      url "https://github.com/loonfs/loonfs/releases/download/v0.1.1/loon-x86_64-apple-darwin.tar.gz"
+      sha256 "415a7ecaf53f3293c5fa67a6a9450e47103025787500f944054e900d2435b3fd"
     end
   end
 
