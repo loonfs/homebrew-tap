@@ -2,7 +2,6 @@ class Loon < Formula
   desc "CLI for the Loon object-store-backed file service"
   homepage "https://github.com/loonfs/loonfs"
   license "Apache-2.0"
-  version "0.1.1"
 
   on_macos do
     on_arm do
@@ -13,6 +12,7 @@ class Loon < Formula
     on_intel do
       url "https://github.com/loonfs/loonfs/releases/download/v0.1.1/loon-x86_64-apple-darwin.tar.gz"
       sha256 "415a7ecaf53f3293c5fa67a6a9450e47103025787500f944054e900d2435b3fd"
+      version "0.1.1"
     end
   end
 
