@@ -1,21 +1,21 @@
 # homebrew-tap
 
-Homebrew tap for the Loon CLI.
+Homebrew tap for the LoonFS CLI.
 
 ## Install
 
 ```bash
-brew install loonfs/tap/loon
+brew install loonfs/tap/loonfs
 ```
 
 ## Upgrade
 
 ```bash
 brew update
-brew upgrade loon
+brew upgrade loonfs
 ```
 
 ## Maintenance
 
-This repository is updated automatically from published releases in
+This repository tracks published releases in
 [`loonfs/loonfs`](https://github.com/loonfs/loonfs).
