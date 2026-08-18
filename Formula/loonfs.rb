@@ -17,6 +17,7 @@ class Loonfs < Formula
 
   def install
     bin.install "loonfs"
+    generate_completions_from_executable(bin/"loonfs", "completion", shell_parameter_format: "--shell=")
     pkgshare.install "README.md", "LICENSE", "VERSION"
   end
 
