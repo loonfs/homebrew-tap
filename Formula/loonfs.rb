@@ -11,7 +11,6 @@ class Loonfs < Formula
     on_intel do
       url "https://github.com/loonfs/loonfs/releases/download/v0.3.0/loonfs-x86_64-apple-darwin.tar.gz"
       sha256 "26482cd5e2fc1c4b81d0442c0397e707f34e0490e6d4e1154e2ed249c9f9c151"
-      version "0.3.0"
     end
   end
 
