@@ -1,16 +1,16 @@
 class Loonfs < Formula
   desc "Durable filesystem built on object storage"
   homepage "https://github.com/loonfs/loonfs"
-  url "https://github.com/loonfs/loonfs/releases/download/v0.5.0/loonfs-aarch64-apple-darwin.tar.gz"
-  sha256 "80f849ed5adf8f8d1b82f22597e494dc595b52782af6d301a5ad35125eb594f7"
+  url "https://github.com/loonfs/loonfs/releases/download/v0.6.0/loonfs-aarch64-apple-darwin.tar.gz"
+  sha256 "9aeb8b03f7dc0c1b23e5d2e4d2d9713b4007481ade0dc31003ace9a2052d8bed"
   license "Apache-2.0"
 
   depends_on :macos
 
   on_macos do
     on_intel do
-      url "https://github.com/loonfs/loonfs/releases/download/v0.5.0/loonfs-x86_64-apple-darwin.tar.gz"
-      sha256 "cdc9ace1f27a02aa9597ca5bbb30786a7819f886907e7bb8dc56d6df5e8f98f3"
+      url "https://github.com/loonfs/loonfs/releases/download/v0.6.0/loonfs-x86_64-apple-darwin.tar.gz"
+      sha256 "d29cc29407f48b98df913cc3958c550c854e7990471d4881d9554abdce7987dc"
     end
   end
 
